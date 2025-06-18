@@ -1,0 +1,37 @@
+.Whole_body{
+    background-color: gray;
+    width:450px;
+    height:550px;
+    align-items:center;
+    justify-content:center;
+    border: 3px solid black; 
+}
+button {
+    width: 100px;
+    height: 90px;
+    margin: 2px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #e0ffe0;
+    transform: scale(1.05);
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button{
+    margin-left: 15px;
+}
